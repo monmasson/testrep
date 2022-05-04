@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Nova Square', cursive;
+}
+
+.container {
+width: 800px;
+ max-width: 80%;
+ background-color: blanchedalmond;
+ margin: 30px auto;
+ border-radius: 8px;
+ padding:25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+      
+      
+body {
+background-image: linear-gradient(10deg, grey 50%, yellow 50%);
+height: 100vh;
+width: 100vw;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+color: orchid;
+ }
+      
+ .btn{
+ background-color: aqua;
+ padding: auto;
+ text-decoration: aliceblue;
+font-size: large;
+width:auto;
+text-align: center;
+color: rgb(19, 3, 3);
+ width: 20rem;
+ gap: 8px;
+ 
+}
+      
+.btn:hover{
+ background-color:darksalmon;
+ }
+      
+      
+.js-logo {
+position: absolute;
+left: 10px;
+top: 30px;
+}
+
+h1{
+font-size: xx-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: chartreuse;
+color:red;
+  }
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.top-main-text {
+    text-align: center;
+}
+
+.answer-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background:green;
+    font-size: 50%;
+}
+
+.answer-container:hover {
+    cursor:grab;
+} 
+.choice-text{
+    font-size: large;
+    padding: 2rem;
+}
+
+.choice-prefix {
+    padding: 2rem ;
+    color: white;
+}
+    
+.choice-option{
+    font-size: small;
+}
+
+.correct {
+    background: yellow
+}
+
+.incorrect {
+    background: red
+}
+#end-text{
+    font-size: large;
+}
+
+.end-form-container{
+    height: 50%;
+}
+
+      
